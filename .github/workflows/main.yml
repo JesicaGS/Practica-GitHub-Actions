@@ -22,3 +22,4 @@ jobs:
 
     - name: Ejecutar pruebas con Maven
       run: mvn test
+      working-directory: ./dp
